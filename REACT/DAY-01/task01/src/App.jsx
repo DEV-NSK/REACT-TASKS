@@ -14,7 +14,7 @@ const App = () => {
     }
   return (
     <div>
-      <button onClick={HandleClick} style={{border:"none", backgroundColor:"orangeRed", padding:"10px 30px", color:"white", fontSize:"1rem"}}>
+      <button onClick={HandleClick} style={{border:"none", backgroundColor:"orangeRed", padding:"10px 30px", color:"white", fontSize:"1rem", margin:"1%"}}>
         {showProfile ? "Hide":"show"}
       </button>
         {showProfile && <Child prop={userdata}/>}
