@@ -1,1 +1,5 @@
-
+@media(max-width:"600px") {
+  #child {
+    width: "60%";
+  }
+}
