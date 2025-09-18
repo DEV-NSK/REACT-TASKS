@@ -1,5 +1,5 @@
 import React from 'react'
-import "./Child.css"
+import "/src/Child.css"
 
 const Child = ({prop}) => {
   let data = prop
