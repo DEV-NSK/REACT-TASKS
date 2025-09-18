@@ -1,5 +1,5 @@
-@media(max-width:"600px") {
+@media(max-width: 600px) {
   #child {
-    width: "60%";
+    width: 60%;
   }
 }
